@@ -17,7 +17,7 @@ Grsecurity is a set of patches for the Linux kernel aimed at enhancing its secur
 1. **Install Podman**: Follow the [official Podman installation guide](https://podman.io/getting-started/installation) for your distribution.
 2. **Clone the Repository**: `git clone https://github.com/JLENF/kernel-grsec-build.git`
 3. **Navigate to the Project**: `cd kernel-grsec-build`
-4. **Important**: For the CentOS or Rocky Linux build, ensure you have the rpmbuild directory created; the RPM files will be placed inside this directory.
+4. **Important**: Ensure you have the built_packages directory created; the built packages files will be placed inside this directory.
 5. **.config file**. You can place your .config file inside the build directory to be used in the build.
 
 ### Building the Kernel
